@@ -72,7 +72,7 @@ class NPCGenerator:
     , "content": "You are used to generate new NPCS for a campaign given context from a user, which can be a location, family, character, organization, item."
     },
     { "role": "system"
-    , "content": "Return the response as a json with the fields name, entry (an html description of the characters history and including a section on goals, fears and bonds), age, sex, races (as an array) ."
+    , "content": "Return the response as a json with the fields name, entry (an html description of the characters history and including a section on goals, fears and bonds), age, sex"
     },
     { "role": "system"
     , "content": "Additionally provide in the json an appearance field which is a description of the characters physical appearance and a personality field which is a description of the characters personality."
